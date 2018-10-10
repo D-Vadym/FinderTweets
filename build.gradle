@@ -28,4 +28,6 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-mongodb')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.7'
+	compile group: 'log4j', name: 'log4j', version: '1.2.17'
 }
